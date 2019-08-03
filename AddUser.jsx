@@ -32,7 +32,7 @@ export default class AddUser extends  Component{
     render(){
         return <div>
             <from onSubmit={event=>this.onSubmit(event)}>
-                <label>UserNameb1:</label>
+                <label>UserNameb1s:</label>
                 <input type="text" onChange={event=>this.onNameChange(event)}/>
                 <button type="sumbit">Add</button>
             </from>
